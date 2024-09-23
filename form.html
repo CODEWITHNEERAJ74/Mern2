@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body>
+    <div>
+        <span>Firat Name :<input type="text" name="firstname" id="firstname"></span>
+        <span>Last Name :<input type="text" name="lastname" id="lastname"></span>
+       <br>
+       <br>
+       <span>Date of birth : <input type="date" name="dateofbirth" id="dateofbirth"></span>
+       <span>Age : <input type="number" name="age" id="age" min="1" max="60"></span>
+       <br>
+       <br>
+       <span>Gender<select name="gender" id="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+       </select></span>
+       <span>Email Address
+        <input type="email" name="email" id="email" placeholder="Eenter Email Address">
+        </span>
+        <br><br>
+        <span>Positions Available : 
+            <input type="radio" name="junior" id="junior">
+            <span>junior Devloper</span>
+            <input type="radio" name="junior" id="Mid">
+            <span>Mid-level Devloper</span>
+            <input type="radio" name="junior" id="Senior">
+            <span>Senior Devloper</span>
+        </span>
+        <br><br>
+        <span>Programming languages :
+            <input type="checkbox" name="java" id="java">
+            <span>java</span>
+            <input type="checkbox" name="python" id="python">
+            <span>python</span>
+            <input type="checkbox" name="C++" id="C++">
+            <span>C++</span>
+            <br><br>
+            <span>Password :<input type="password" name="password" id="password"></span>
+            <span>Confirm Password :<input type="password" name="password2" id="password2"></span>
+
+        </span>
+        <br><br>
+        <input type="button" value="Submit">
+        <input type="button" value="Reset">
+    </div>
+</body>
+</html>

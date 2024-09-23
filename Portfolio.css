@@ -1,0 +1,34 @@
+.fanContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    margin: 0 auto;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainFanContainer{
+    height: 70%;
+    width: 90%;
+    background-color: cornflowerblue;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+}
+img{
+    height: 14rem;
+    width: 14rem;
+}
+.fanon{
+    height: 3rem;
+    width: 8rem;
+    background-color: aqua;
+    font-weight: 700;
+}
+.fanon:hover{
+    border-top: 3rem;
+    border-right: 3rem;
+    border-color: rgb(47, 3, 244);
+}
